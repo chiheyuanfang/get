@@ -25,4 +25,4 @@ jobs:
         HOSTLOC_PASSWORD: ${{ secrets.HOSTLOC_PASSWORD }}
         BOT_API: ${{ secrets.BOT_API }}
         CHAT_ID: ${{ secrets.CHAT_ID }}
-      run: python HostlocGetPoints.py
+      run: python hostloc_get_points.py
