@@ -9,7 +9,7 @@ from pyaes import AESModeOfOperationCBC
 from requests import Session as req_Session
 
 
-# 随机生成用户空间链接
+# 随机生成用户空间链接 1
 def randomly_gen_uspace_url() -> list:
     url_list = []
     # 访问小黑屋用户空间不会获得积分、生成的随机数可能会重复，这里多生成两个链接用作冗余
